@@ -61,6 +61,7 @@ body{
     background-color: var(--primary-color);
     border:solid;
     margin:auto 1rem;
+    padding:0 1rem;
 }
 
 .btn-container{
