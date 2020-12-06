@@ -57,7 +57,7 @@ body{
 .button{
     max-width:100px;
     height:5vh;
-    width:40%;
+    width:30%;
     background-color: var(--primary-color);
     border:solid;
     margin:auto 1rem;
@@ -68,7 +68,7 @@ body{
     max-width:300px;
     padding:1rem;
     margin:auto;
-    width:80%
+    width:50%;
 }
 
 #txt-output{
