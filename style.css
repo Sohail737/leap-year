@@ -17,7 +17,7 @@ body{
 }
 
 .hero-image{
-    max-width: 250px;
+    max-width: 150px;
     display:block;
     margin:auto;
 }
@@ -60,6 +60,8 @@ body{
     margin:auto;
     float:left;
     height:5vh;
+    outline: none;
+    cursor: pointer;
 }
 
 .button-right{
@@ -68,10 +70,11 @@ body{
     margin:auto;
     float: right;
     height:5vh;
+    outline: none;
+    cursor: pointer;
 }
 
 .btn-container{
-    display:block;
     max-width:200px;
     padding:1rem;
     margin:auto;
@@ -80,7 +83,6 @@ body{
 }
 
 #txt-output{
-    display:block;
     box-sizing: border-box;
     height: 15vh;
     width:100%;
@@ -89,7 +91,6 @@ body{
 }
 
 .footer{
-    box-sizing:border-box;
     padding:1rem;
     margin:auto;
     background-color: var(--primary-color);
