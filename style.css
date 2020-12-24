@@ -14,6 +14,7 @@ body{
     margin:auto;
     background-color:var(--primary-color);
     margin-bottom:2rem;
+    color:white;
 }
 
 .hero-image{
@@ -32,9 +33,7 @@ body{
 .container-center{
     margin:auto;
     padding:1rem;
-    width:50%
-    
-
+    width:50%;
 }
 
 #txt-input{
@@ -95,6 +94,7 @@ body{
     margin:auto;
     background-color: var(--primary-color);
     text-align:center;
+    color:white;
 }
 
 
