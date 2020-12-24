@@ -8,7 +8,7 @@ function leapYear() {
 
   let year = Number(inputText.value);
 
-  if (typeof year != "number" || isNaN(year) || year.toString().length < 4) {
+  if (isNaN(year) || year.toString().length < 4) {
     alert("Year can only be in YYYY format");
   } else {
     if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
@@ -21,7 +21,6 @@ function leapYear() {
 }
 
 function resetAll(){
-    console.log("inside reset");
     inputText.value="";
     outputText.innerText="";
 }
